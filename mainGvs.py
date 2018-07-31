@@ -24,9 +24,6 @@ hi_elixer = Item("MegaElixer", "elixer", "Fully restores party's HP/MP", 9999)
 
 grenade = Item("Grenade", "attack", "Deals 500 damage", 500)
 
-# magic = [{"Name": "Fire", "Cost": 10, "Damage": 100},
-#          {"Name": "Thunder", "Cost": 20, "Damage": 170},
-#          {"Name": "Blizzard", "Cost": 15, "Damage": 150}]
 player_spells = [fire, thunder, blizzard, meteor, cure, cura]
 player_items = [{"item": potion, "quantity": 10}, {"item": hi_potion, "quantity": 5},
                 {"item": super_potion, "quantity": 4}, {"item": elixer, "quantity": 3},
